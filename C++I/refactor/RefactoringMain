@@ -1,0 +1,110 @@
+// including iostream directive tells the preprocessor to include other contents file.
+#include <iostream>
+
+// with the include String, we can not display a string output or alphabetical characters.
+#include <string>
+
+// windows.h library allow coders to do more like adding delays like sleep for some seconds
+#include <windows.h>
+
+//including my locally made h file set funtion
+#include "RefactoringHeader.h"
+
+// using namespace std to avoid std:: cout repetitions in our code
+using namespace std;
+
+
+
+
+//funtion that returns to main menu, starting point
+int Home()
+{
+
+	int MenuOptions;
+	cout << "\n";
+
+	cout << "  WELCOME BACK TO REFACTORING! WHERE WE PUT EVERYTHING TOGERTHER \t\n\n" << endl;
+
+	cout << "   Dont forget to Pick a number from 1-8 from the main menu to get access \n\n\n";
+	cout << "           Main Menu \t\t\t\n\n";
+	
+	cout << "1 Decimals\n\n";
+	cout << "2 Sum of Return Values\n\n";
+	cout << "3 Multipel Parameters\n\n";
+	cout << "4 Add Numbers\n\n";
+	cout << "5 Array \n\n";
+	cout << "6 Read a Book\n\n";
+	cout << "7 Count Down\n\n";
+	cout << "8 Exit\n\n";
+	cin >> MenuOptions;
+	return MenuOptions;
+
+}
+
+
+
+
+//void funtion that returns with an array
+void Garage(int myCars[5])
+{
+	// a for loop that is commanded to increase
+	for (int i = 0; i < 5; i++)
+	{
+		cout << myCars[i] << "\n\n";
+	}
+}
+
+// void funtion that calls a count
+void Counting()
+{
+	// using for loop - for (initial cond; continue untill; incremental)
+	for (int i = 8; i > 0; i--) // i -- = i-1;
+	{
+
+		/*if, else if and else are use in
+		the argument of a loop statements*/
+		if (i < 3)
+		{
+			cout << "Warning Did you change Your Mind Yet? - Jet time left to Space " << i << "\n\n";
+		}
+		else
+		{
+			cout << "Jet Getting Ready To Mars = " << i << "\n\n";
+		}
+
+		// sleep with timming codition specify how fast or slow the console should load for a user
+		Sleep(1200);
+	}
+	cout << "You Are Awesome See You in Mars" << "\n\n\n";
+}
+
+//funtions that returns a multiplication integer, starting point
+int multi(int num1, int num2)
+{
+	return num1 * num2;
+}
+
+//a void funtion that has a parameter, starting point
+void sumof(int num1, int num2)
+{
+	cout << num1 << " + " << num2 << " = " << num1 + num2 << "\n\n";
+}
+
+// a double funtion that returns a decimal result, starting point
+double deci(double z, double y)
+{
+	return z * y;
+}
+
+//funtion that has a return of integers, starting point
+int sumof(int x)
+{
+	return 29 + x;
+}
+
+
+
+
+
+
+
