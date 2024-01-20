@@ -1,0 +1,5 @@
+﻿  Putting Everything Together Source.cpp
+C:\Users\amohe\source\repos\Putting Everything Together\Putting Everything Together Source.cpp(80,7): warning C4101: 'contact': unreferenced local variable
+C:\Users\amohe\source\repos\Putting Everything Together\Putting Everything Together Source.cpp(79,7): warning C4101: 'age': unreferenced local variable
+C:\Users\amohe\source\repos\Putting Everything Together\Putting Everything Together Source.cpp(93,8): warning C4101: 'pAPter': unreferenced local variable
+  Putting Everything Together.vcxproj -> C:\Users\amohe\source\repos\Putting Everything Together\x64\Debug\Putting Everything Together.exe
