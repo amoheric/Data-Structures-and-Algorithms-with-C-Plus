@@ -1,0 +1,9 @@
+﻿  Exceptions Source.cpp
+C:\Users\amohe\source\repos\Exceptions\Exceptions Source.cpp(43,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\amohe\source\repos\Exceptions\Exceptions Source.cpp(43,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\amohe\source\repos\Exceptions\Exceptions Source.cpp(130,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\amohe\source\repos\Exceptions\Exceptions Source.cpp(146,14): warning C4101: 'ex': unreferenced local variable
+C:\Users\amohe\source\repos\Exceptions\Exceptions Source.cpp(151,17): warning C4101: 'ex': unreferenced local variable
+C:\Users\amohe\source\repos\Exceptions\Exceptions Source.cpp(156,16): warning C4101: 'ex': unreferenced local variable
+C:\Users\amohe\source\repos\Exceptions\Exceptions Source.cpp(161,16): warning C4101: 'ex': unreferenced local variable
+  Exceptions.vcxproj -> C:\Users\amohe\source\repos\Exceptions\x64\Debug\Exceptions.exe
