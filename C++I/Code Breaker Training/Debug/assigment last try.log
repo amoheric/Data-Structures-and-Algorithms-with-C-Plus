@@ -1,0 +1,5 @@
+﻿  KeywordII.cpp
+C:\Users\amohe\source\repos\assigment last try\KeywordII.cpp(163,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\amohe\source\repos\assigment last try\KeywordII.cpp(185,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\amohe\source\repos\assigment last try\KeywordII.cpp(70,6): warning C4101: 'ranNum1': unreferenced local variable
+  assigment last try.vcxproj -> C:\Users\amohe\source\repos\assigment last try\Debug\assigment last try.exe
