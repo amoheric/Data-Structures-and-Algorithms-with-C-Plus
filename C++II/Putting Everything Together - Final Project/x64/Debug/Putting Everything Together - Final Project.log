@@ -1,0 +1,5 @@
+﻿  Putting Everything Together- final project Source.cpp
+C:\Users\amohe\source\repos\Putting Everything Together - Final Project\Putting Everything Together- final project Source.cpp(218,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\amohe\source\repos\Putting Everything Together - Final Project\Putting Everything Together- final project Source.cpp(218,19): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\amohe\source\repos\Putting Everything Together - Final Project\Putting Everything Together- final project Source.cpp(298,12): warning C4129: ' ': unrecognized character escape sequence
+  Putting Everything Together - Final Project.vcxproj -> C:\Users\amohe\source\repos\Putting Everything Together - Final Project\x64\Debug\Putting Everything Together - Final Project.exe

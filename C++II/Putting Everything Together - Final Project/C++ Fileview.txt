@@ -1,0 +1,26 @@
+
+ Remembering and recalling files for the Final project can be tricky, but it is so fun!
+
+
+ File I/O Home App.
+
+ Hey! I/O Home, Please remember the story I am about to tell you.
+
+
+ I/O Home, remember, Today is not today.C++
+
+
+ Today is another day, sometime ago, centuries past, when there were kingsand castlesand dragons And unicorns...
+
+ A traveling mendicant once lectured you, when you were still a little girl
+
+
+ whose duties entailed scouring chamberpots and sweeping hearths,
+
+ about how every human's fate could be read in the stars. 
+
+
+ File I/O can truelly recall everything.
+
+ End of Text Book.
+
