@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (swap c.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+C:\Users\amohe\source\repos\swap c\Source.cpp(64,10): warning C4129: 'Y': unrecognized character escape sequence
+  swap c.vcxproj -> C:\Users\amohe\source\repos\swap c\x64\Debug\Using References to Hack and Bankrupting the Terrorists.exe
