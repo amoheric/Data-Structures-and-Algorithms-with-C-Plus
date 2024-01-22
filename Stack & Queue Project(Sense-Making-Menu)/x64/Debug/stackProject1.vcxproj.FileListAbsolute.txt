@@ -1,0 +1,2 @@
+C:\Users\amohe.000\c++\stackProject1\x64\Debug\stackProject1.exe
+C:\Users\amohe.000\c++\Stack & Queue Project(Sense-Making-Menu)\x64\Debug\stackProject1.exe
