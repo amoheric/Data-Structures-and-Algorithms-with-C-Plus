@@ -1,0 +1,8 @@
+YouTube video link: 
+
+https://youtu.be/6c2NgzdXUUQ 
+
+
+GitHub:
+
+https://github.com/amoheric/C_PLUS_PLUS/tree/main/sorting%20multi%20algorithms%20with%20insertion%20sort%2C%20merge%20sort%2C%20quick%20sort
