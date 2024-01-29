@@ -1,0 +1,7 @@
+﻿  function.cpp
+  main.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 2 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  CSC215 3 15 23.vcxproj -> C:\Users\Jill\UAT\Grad Development\MSE539\CSC215 3 15 23\x64\Release\CSC215 3 15 23.exe
