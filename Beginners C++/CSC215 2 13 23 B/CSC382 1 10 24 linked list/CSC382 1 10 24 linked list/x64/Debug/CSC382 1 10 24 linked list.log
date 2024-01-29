@@ -1,0 +1,4 @@
+﻿  linked list.cpp
+C:\Users\Owner\source\repos\CSC382 1 10 24 linked list\CSC382 1 10 24 linked list\linked list.cpp(43,10): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Owner\source\repos\CSC382 1 10 24 linked list\CSC382 1 10 24 linked list\linked list.cpp(41,6): warning C4101: 'inputNum': unreferenced local variable
+  CSC382 1 10 24 linked list.vcxproj -> C:\Users\Owner\source\repos\CSC382 1 10 24 linked list\x64\Debug\CSC382 1 10 24 linked list.exe
