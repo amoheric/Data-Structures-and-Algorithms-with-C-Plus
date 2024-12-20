@@ -2,7 +2,7 @@
 * 
 NAME: Eric Amoh Adjei
 DATE: 01/21/2024
-Assignment Project 2: Stack and queue.
+Project 2: Stack and queue.
 *
 */
 
@@ -45,10 +45,10 @@ using namespace std;
 Creating a program that simulates a conversation between two people using a stack and a queue.
 Explanation of why this works:
 
-•The stack preserves the order of messages as they are pushed onto it, 
+â€¢The stack preserves the order of messages as they are pushed onto it, 
 making it suitable for displaying messages in the order they were added.
 
-•The queue, when implemented to store messages in reverse order, 
+â€¢The queue, when implemented to store messages in reverse order, 
 allows you to retrieve messages in the correct order for playback, as it follows the FIFO behavior.
 
 */
