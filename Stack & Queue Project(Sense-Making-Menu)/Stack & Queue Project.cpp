@@ -7,52 +7,51 @@ Assignment Project 2: Stack and queue.
 */
 
 
-//This includes the standard input and output library in C++. It's used for operations like reading from and writing to the console.
-#include <stdio.h>
+#include <stdio.h>//This includes the standard input and output library in C++. It's used for operations like reading from and writing to the console.
 
-// It provides functionalities for dynamic memory allocation, random number generation, communication with the environment, integer arithmetic, searching, sorting, and converting.
-#include <stdlib.h>
+#include <stdlib.h>// It provides functionalities for dynamic memory allocation, random number generation, communication with the environment, integer arithmetic, searching, sorting, and converting.
 
-// including iostream directive tells the preprocessor to include other contents file.
-#include <iostream>
+#include <iostream>// including iostream directive tells the preprocessor to include other contents file.
 
-//Stream class to both read and write from/to files. 
-#include <fstream>
+#include <fstream>//Stream class to both read and write from/to files. 
 
-// with the include String, we can not display a string output or alphabetical characters.
-#include <string>
+#include <string>// with the include String, we can not display a string output or alphabetical characters.
 
-// windows.h library allow coders to do more like adding delays like sleep for some seconds
-#include <windows.h>
+#include <windows.h>// windows.h library allow coders to do more like adding delays like sleep for some seconds
 
-//algorithms library defines functions for a variety of purposes
-#include <algorithm>
+#include <algorithm>//algorithms library defines functions for a variety of purposes
 
-//Constructs a container with as many elements as the range
-#include <vector>
+#include <vector>//Constructs a container with as many elements as the range
 
-//defines several general purpose functions, including dynamic memory management, random number generation and more
-#include <cstdlib>
+#include <cstdlib>//defines several general purpose functions, including dynamic memory management, random number generation and more
 
-//Interprets the value pointed by timer as a calendar time and converts it to a C-string containing a human-readable version
-#include <ctime>
+#include <ctime>//Interprets the value pointed by timer as a calendar time and converts it to a C-string containing a human-readable version
 
-//an array includes a certain value among its entries, returning true or false as appropriate
-#include <array>
+#include <array>//an array includes a certain value among its entries, returning true or false as appropriate
 
-//defines variable types, two macro and various functions for manipulating date and time. 
-#include <time.h>
+#include <time.h>//defines variable types, two macro and various functions for manipulating date and time. 
 
-//declares a set of functions to classify and transform individual characters.
-#include <cctype>
+#include <cctype>//declares a set of functions to classify and transform individual characters.
 
-//This includes the standard library header file for the std::list container. std::list in C++ is a sequence container that allows non-contiguous memory allocation.
-#include <list>
+#include <list>//This includes the standard library header file for the std::list container. std::list in C++ is a sequence container that allows non-contiguous memory allocation.
 
 
 // using namespace std to avoid std:: cout repetitions in our code
 using namespace std;
 
+/****************************************
+*
+*
+Creating a program that simulates a conversation between two people using a stack and a queue.
+Explanation of why this works:
+
+•The stack preserves the order of messages as they are pushed onto it, 
+making it suitable for displaying messages in the order they were added.
+
+•The queue, when implemented to store messages in reverse order, 
+allows you to retrieve messages in the correct order for playback, as it follows the FIFO behavior.
+
+*/
 
 
 // Creating my Node structure for a linked list
@@ -73,12 +72,16 @@ struct Node
 
 
 //Creating my Function to add a message to the stack
+int stack_size = 0;  // Global variable to track stack size
+const int MAX_STACK_SIZE = 100;  // Define maximum stack size
+
 void push(Node** top, const char* message) 
 {
 
     Node* new_node = new Node(message); // Creating my new node with the message
     new_node->next = *top;              // Linking the new node to the current top
     *top = new_node;                    // Updating the top of the stack
+    stack_size++;
 
 }
 
@@ -102,18 +105,28 @@ void pop(Node** top)
 
 
 //Creating my Function to add a message to the queue
-void enqueue(Node** front, Node** rear, const char* message) 
+int queue_size = 0;  // Global variable to track queue size
+const int MAX_QUEUE_SIZE = 100;  // Define maximum queue size
+
+void enqueue(Node** front, Node** rear, const char* message)
 {
+    if (queue_size >= MAX_QUEUE_SIZE) {
+        cout << "Queue Overflow: Cannot add more messages to the queue!" << endl;
+        return;
+    }
 
     Node* new_node = new Node(message); // Creating a new node with the message
-    if (*rear == nullptr) 
+    if (*rear == nullptr)
     {
         *front = *rear = new_node; // If queue is empty, new node is both front and rear
         return;
 
     }
-    (*rear)->next = new_node; // Linking the current rear to the new node
-    *rear = new_node;         // Updating the rear to the new node
+    else {
+        (*rear)->next = new_node; // Linking the current rear to the new node
+        *rear = new_node;         // Updating the rear to the new node
+    }
+	queue_size++;
 }
 
 
@@ -257,8 +270,10 @@ int main()
     int choice;
     do 
     {
-
-        cout << "\nWELCOME TO C++ Stack and queue\n \n A sequence of messages demonstrating a back-and-forth conversation \n \n between two people (Person_1: Eric & Person_2: Amoh)";
+        //welcomes our user and introduces the app to the user
+        cout << "\nWELCOME TO C++ Stack and queue\n A sequence of messages demonstrating a back-and-forth conversation \n between two people (Person-1: Eric & Person-2: Amoh)";
+        
+        '\n \n';
 
         cout << "\nChoose an option:\n";
         cout << "1. Display Eric's stack\n";
