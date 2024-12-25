@@ -2,7 +2,7 @@
 *
 NAME: Eric Amoh Adjei
 DATE: 01/28/2024
-Assignment 3: Create your own Hash function
+Algorithm Project 3: Create your own Hash function
 *
 */
 
@@ -31,7 +31,7 @@ Assignment 3: Create your own Hash function
 //Constructs a container with as many elements as the range
 #include <vector>
 
-//defines several general purpose functions, including dynamic memory management, random number generation and more
+//defines several general-purpose functions, including dynamic memory management, random number generation and more
 #include <cstdlib>
 
 //Interprets the value pointed by timer as a calendar time and converts it to a C-string containing a human-readable version
