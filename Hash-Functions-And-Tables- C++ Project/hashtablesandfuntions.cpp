@@ -2,7 +2,7 @@
 *
 NAME: Eric Amoh Adjei
 DATE: 01/28/2024
-Assignment 3: Create your own Hash function
+Algorithm Project 3: Create your own Hash function
 *
 */
 
